@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Box</title>
+    <style>
+        .container{
+            background-color: rgb(179, 176, 176);
+            padding: 20px;
+            display: flex;
+            border: 2px solid black;
+            width: 100%;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            /* align-items: stretch; */
+            /* align-content: flex-end; */
+
+
+        }
+
+        .items{
+            /* width: 100px; */
+            font-size: 20px;
+            font-weight: bold;
+            text-align: center;
+            padding: 10px 20px;
+            margin: 10px;
+            
+        }
+
+        .item1{background-color: red; order: 3; }
+        .item2{background-color: blue; order: 2;}
+        .item3{background-color: green; order:1;}
+        .item4{background-color: yellow; order:4}
+        .item5{background-color: pink; order: 5;}
+        .item6{background-color: brown;}
+        .item7{background-color: lightblue;}
+        .item8{background-color: lightsalmon;}
+        .item9{background-color: darkgrey;
+        order: -1;}
+    </style>
+</head>
+<body>
+    
+
+    <div class="container">
+        
+            <div class="item1 items">One</div>
+            <div class="item2 items">Two</div>
+            <div class="item3 items">Three</div>
+            <div class="item4 items">Four</div>
+    
+        <div class="item5 items">Five</div>
+        <!-- <div class="item6 items">Six</div>
+        <div class="item7 items">Seven</div>
+        <div class="item8 items">Eight</div>
+        <div class="item9 items">Nine</div> -->
+    </div>
+</body>
+</html>
