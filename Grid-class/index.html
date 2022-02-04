@@ -10,27 +10,84 @@
             .container{
                 background-color: #eee;
                 width: 80%;
+                /* height: 700px; */
                 padding: 10px;
                 margin: 50px ;
+
+                /* css grid system */
+                display: grid;
+                grid-template-columns: 100px 200px 100px;
+                grid-template-rows: 100px 100px 100px ;
+
+            
+
+                /* grid gap */
+                grid-gap: 10px;
+                /* gird row gap */
+                /* grid-row-gap: 10px; */
+                /* grid column gap */
+                /* grid-column-gap: 20px; */
+
+                /* gird Positioning */
+
+                /* max-content */
+                /* min-content */
+
+                 /* Grid-alignments */
+                /* justify-items: center;
+                align-items:center; */
+
+                justify-content: end;
+
     
             }
-    
             .items{
                 color:white;
             }
-    
-            .item1{background-color: rebeccapurple;
+
+            .item1{
+                background-color: rebeccapurple;
+                /* grid-row-start: 2;
+                grid-row-end: 3;
+                grid-column-start: 3;
+                grid-column-end:4; */
+
+                /* grid-row: 2/3;
+                grid-column: 3/4; */
+
+                /* grid-area: GRS , GCS , GRE, GCE; */
+                /* grid-area: 2/3/3/4; */
+
+                /* grid-column: 1/4; */
+                /* grid-column: span 3; */
+                /* color: black;
+                z-index: 1; */
+                /* grid-row: span 2; */
+                /* grid-column:span 2; */
+                
                
+                
             }
             .item2{background-color: yellowgreen;
+
+                /* grid-row: 2/5; */
+                /* grid-row: span 3; */
             }
             .item3{background-color: hotpink;
+                /* align-self: center;
+                justify-self: center; */
+               
             }
             .item4{background-color: goldenrod;
             }
-            .item5{background-color: royalblue;}
+            .item5{background-color: royalblue;
+                /* grid-area: 1/3/2/4;  */
+
+                /* grid-area: 1/3/2/4; */
+            }
             .item6{
                 background-color: orangered;
+                /* grid-row: span 2; */
             }
         </style>
     </head>
