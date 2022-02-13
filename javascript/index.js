@@ -140,9 +140,39 @@ let person=[
     //     i++;
     // }
 
+
+    x=10;
+    y=5;
+
+    // const conditionCheck =  x==="10" ? console.log("this condition is true") : console.log("this conditoion is false")
+    // if(x=="10" || y==8){
+    //     console.log("im number 10")
+    // }else if(x===10){
+    //     console.log("my data type is number")
+    // }
+    // else{
+    //     console.log('your condition is not true')
+    // }
+
+
+    // function MyFunction(x,y){
+    //     console.log("Addition of numbers ===> ", x+y)
+    // }
+
+
+    // MyFunction("Saad","ullah")
+    // MyFunction(4,5)
+
+
+    // const myfucntion = (x,y) =>{
+    //     console.log("Addition of numbers ===> ", x+y)
+
+    // }
+
+
+    // myfucntion(5,6);
+    // var , let , const 
     
-
-
-
+    
 
 
